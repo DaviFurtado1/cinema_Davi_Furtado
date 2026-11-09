@@ -91,6 +91,7 @@
     a {
         color: black;
     }
-        a:hover{
+
+    a:hover {
         color: white;
     }
