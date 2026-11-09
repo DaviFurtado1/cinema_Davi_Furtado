@@ -58,13 +58,18 @@
         height: 30%;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.2);
+        /* adiciona a borda práticamente invisível */
         transition: transform 0.7s ease, box-shadow 0.4s ease, filter 0.4s ease;
+        /* adiciona a transição natural */
     }
 
     div img:hover {
         transform: scale(1.02);
+        /* aumenta o tamanho da imagem */
         box-shadow: 0 10px 25px rgba(0, 89, 255, 0.4);
+        /* adiciona uma sombra colorida surgindo */
         filter: brightness(1.1);
+        /* aumenta o brilho */
         cursor: pointer;
     }
 
@@ -72,6 +77,7 @@
         border: 0;
         height: 2px;
         background: linear-gradient(90deg, transparent, rgba(18, 122, 220, 0.8), transparent);
+        /* adiciona o efeito de gradiente na hr */
         margin: 40px 0;
     }
 
