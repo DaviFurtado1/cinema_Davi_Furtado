@@ -20,6 +20,7 @@
         font-size: larger;
         box-shadow: 0 10px 30px rgba(0, 140, 255, 0.25), 0 0 20px rgba(18, 207, 220, 0.15);
         font-style: italic;
+        transition: transform 0.7s ease, box-shadow 0.4s ease, filter 0.4s ease;
     }
 
     .div2 {
@@ -36,6 +37,7 @@
         font-size: larger;
         box-shadow: 0 10px 30px rgba(0, 140, 255, 0.25), 0 0 20px rgba(18, 207, 220, 0.15);
         font-style: italic;
+        transition: transform 0.7s ease, box-shadow 0.4s ease, filter 0.4s ease;
 
     }
 
@@ -169,5 +171,10 @@
     li:hover {
         transform: scale(1.02);
         cursor: pointer;
+        color: white;
+    }
+
+    div:hover {
+        transform: scale(1.02);
         color: white;
     }
