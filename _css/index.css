@@ -47,5 +47,25 @@
     cursor: text;
     }
     div img{
-        
+    width: 30%;
+    height: 30%;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.7s ease, box-shadow 0.4s ease, filter 0.4s ease;
+    }
+    div img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 89, 255, 0.4);
+    filter: brightness(1.1);
+    cursor: pointer;
+    }
+    hr{
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(18, 122, 220, 0.8), transparent);
+    margin: 40px 0;
+    }
+    div nav{
+        text-align: left;
+        color: black;
     }
