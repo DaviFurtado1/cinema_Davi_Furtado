@@ -186,3 +186,8 @@
     a:hover {
         color: black;
     }
+
+    input:hover {
+        cursor: pointer;
+        color: white;
+    }
