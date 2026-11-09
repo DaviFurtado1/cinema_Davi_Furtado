@@ -87,3 +87,10 @@
         cursor: pointer;
         color: white;
     }
+
+    a {
+        color: black;
+    }
+        a:hover{
+        color: white;
+    }

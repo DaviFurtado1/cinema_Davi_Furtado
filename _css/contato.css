@@ -178,3 +178,10 @@
         transform: scale(1.02);
         color: white;
     }
+
+    a {
+        color: white;
+    }
+    a:hover{
+        color: black;
+    }
